@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#container{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    position: relative;
+}
+
+#container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+i{
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top: 42%;
+    left: 37%;
+    transform: translate(-50%, -50%), scale(0);
+    opacity: 0;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
