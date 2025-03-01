@@ -1,0 +1,36 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+    max-width: 470px;
+    color: #fff;
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    border-radius: 20px;
+    padding: 30px 40px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.input-search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input, i{
+    border: none;
+    outline: 0; 
+    border-radius: 30px;
+    padding: 10px 25px;
+}
