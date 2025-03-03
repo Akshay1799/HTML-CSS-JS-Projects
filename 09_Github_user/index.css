@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    border-style: none;
+    border-radius: 20px;
+
+}
+h2{
+    padding-top: 35px;
+}
+
+input {
+    padding: 8px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 15px;
+}
+
+button {
+    padding: 8px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 15px;
+}
+
+.profile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: transparent;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.followers {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
