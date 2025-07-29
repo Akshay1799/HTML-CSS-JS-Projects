@@ -20,6 +20,7 @@ button:hover{
 }
 
 .para{
+    display: flex;
     position: sticky;
     max-width: 300px;
     margin: 1rem auto;
@@ -28,10 +29,10 @@ button:hover{
     color: white;
     background-color: rgb(0, 0, 0);
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 8px;
     font-size: 18px;
     opacity: 1;
-    transition: opacity 3s ease-in-out;
+    transition: opacity 3s ease-out;
 }
 
 .para>span{
